@@ -1,0 +1,18 @@
+.map {
+    // SIDEBAR
+    .col-md-3 {
+        background: $dark-black;
+        .title{
+            color: $smoke-bg; 
+        }
+    }
+
+    // CARTE
+    .col-md-9 {
+        // padding: 0px;        
+        #mapid { 
+            height: 100vh;    
+        }
+    } 
+
+}

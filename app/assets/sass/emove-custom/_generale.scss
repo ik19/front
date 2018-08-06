@@ -1,0 +1,11 @@
+* {
+  &::selection {
+    background-color: $meo-primary;
+    color: $black-color;
+  }
+  /* Firefox */
+  &::-moz-selection {
+    background-color: $black-color;
+    color: $meo-primary;
+  }
+}

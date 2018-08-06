@@ -1,0 +1,74 @@
+.vehicles {
+    background-color: $white-color;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    .header {
+        padding-top: 1.25rem;
+        .gamme {
+            margin: 0;
+            text-align: center;
+            color: $meo-primary;
+        }
+    } // /header
+    .body {
+        padding: 1.4rem;
+        .col-md-5 {
+            text-align: center;
+            .location {
+                p {
+                    margin: 0;
+                }
+                button {
+                    margin: 0;
+                }    
+            }
+            .date {
+            }
+        } // /body col-md-4
+        .col-md-7 {
+            h1 {
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                font-size: 1.3rem; 
+                modele {
+                    font-weight: 700;
+                }
+            }
+            .title {
+            }
+            .organizer {
+                font-size: .9em;                
+                span {
+                    font-weight: 500;
+                    color: $meo-secondary;
+                }
+            }
+            img {
+                padding-top: .5rem;
+                font-size: 1.3em;
+                font-weight: 400;
+                color: $black-color;                
+                text-align: justify;
+            }
+        } // /body col-md-8
+    } // /body
+    .footer {
+        margin: 0;
+        padding-top: .6rem;
+        padding-bottom: .4rem;
+        background-color: #F1F1F1;
+        font-size: .8em;
+        p {
+            margin: 0;
+        }
+        .participants {
+        }
+        .interested {
+        }
+        .light {
+            color: red;
+            margin-top: 3px;
+        }
+    } // /footer
+} // /fastevent
